@@ -1,0 +1,21 @@
+<section id="check-in">
+    <h2>New Check-In</h2>
+    <form id="check-in-form">
+        <label for="task">Cleaning Task:</label>
+        <input type="text" id="task" name="task" required>
+
+        <fieldset>
+            <legend>Task Completed:</legend>
+            <input type="radio" id="completed-yes" name="completed" value="yes" required>
+            <label for="completed-yes">Yes</label>
+            <input type="radio" id="completed-no" name="completed" value="no" required>
+            <label for="completed-no">No</label>
+        </fieldset>
+
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+
+        <button type="submit">Submit Check-In</button>
+    </form>
+</section>
+
